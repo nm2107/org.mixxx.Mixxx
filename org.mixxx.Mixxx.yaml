@@ -205,3 +205,5 @@ modules:
       sha256: 8e3a5a545175982336bb07c81a3839897a007c43689b93641242db662f6beb9c
     - type: patch
       path: metainfo.patch
+    - type: patch
+      path: dvs-waveform-rendering-when-cueed-fix.patch

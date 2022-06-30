@@ -1,0 +1,20 @@
+diff --git a/src/engine/enginebuffer.cpp b/src/engine/enginebuffer.cpp
+index 8388509424..933d7aa13d 100644
+--- a/src/engine/enginebuffer.cpp
++++ b/src/engine/enginebuffer.cpp
+@@ -1257,6 +1257,7 @@ void EngineBuffer::updateIndicators(double speed, int iBufferSize) {
+         return;
+     }
+ 
++    /*
+     if (m_filepos_play == kInitialSamplePosition ||
+             m_trackSampleRateOld == 0 ||
+             m_tempo_ratio_old == 0) {
+@@ -1268,6 +1269,7 @@ void EngineBuffer::updateIndicators(double speed, int iBufferSize) {
+         // called yet.
+         return;
+     }
++    */
+ 
+     // Increase samplesCalculated by the buffer size
+     m_iSamplesSinceLastIndicatorUpdate += iBufferSize;
